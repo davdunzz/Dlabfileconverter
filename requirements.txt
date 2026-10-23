@@ -1,6 +1,5 @@
-PySide6>=6.7
+PySide6>=6.7,<7
 Pillow>=10.0
 pillow-heif>=0.16
 pypdf>=4.0
 reportlab>=4.0
-# Opzionale: pip install cairosvg per SVG -> PNG/JPG/PDF
