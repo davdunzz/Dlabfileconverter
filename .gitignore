@@ -2,40 +2,37 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 
 # Ambienti virtuali
 .venv/
 venv/
 env/
 
-# Pacchetti e build
+# File di compilazione
 build/
 dist/
 *.spec
 
-# File temporanei
+# File temporanei e log
 *.tmp
 *.temp
 *.log
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# IDE
-.vscode/
-.idea/
-
-# Test e copertura
-.pytest_cache/
-.coverage
-htmlcov/
 
 # Configurazioni locali e segreti
 .env
 .env.*
 !.env.example
 
-# File generati dall'applicazione
-output/
-converted/
+# Editor
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
