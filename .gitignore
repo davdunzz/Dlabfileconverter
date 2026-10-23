@@ -1,0 +1,41 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambienti virtuali
+.venv/
+venv/
+env/
+
+# Pacchetti e build
+build/
+dist/
+*.spec
+
+# File temporanei
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Test e copertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configurazioni locali e segreti
+.env
+.env.*
+!.env.example
+
+# File generati dall'applicazione
+output/
+converted/
